@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <h1>calcU</h1>
+    <h3>This page is a calculator. To use it, you must first input two numbers in the textboxes below. <br>Num 1 is always the left hand side of the equation and Num 2 is always the right hand side of the equation. <br>You see those buttons below the textboxes. <br>Those are the operators. It is as follows:<br>+ is for addition<br>- is for subtraction<br>* is for multiplication<br>/ is for division<br>% is for the remainder or also known as the modulus<br>So what are you waiting for, try it for yourself :)</h3>
+    <div>
+        <input type="text" id="num1" value="Num 1">
+        <input type="text" id="num2" value="Num 2">
+    </div>
+    <div>
+        <button onclick="addition();">+</button>
+        <button onclick="subtraction();">-</button>
+        <button onclick="multiplication();">*</button>
+        <button onclick="division();">/</button>
+        <button onclick="modulus();">%</button>
+    </div>
+    <h3 id="result">Results will be displayed here.</h3>
+</body>
+</html>
